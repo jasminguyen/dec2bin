@@ -65,7 +65,7 @@ class MyWindow(QMainWindow):
     
     def my_on(self):
         for index in self.bitlabels:
-            self.bitlabels=led[index].on()
+            self.bitlabels=leds[index].on()
             
             
     def slidercount(self):
