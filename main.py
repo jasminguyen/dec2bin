@@ -75,7 +75,6 @@ class MyWindow(QMainWindow):
                     lb+=lb
                     QLabel.setStyleSheet("background-color:rgb(255,0,0)")
                 
-                
         
 app = QtWidgets.QApplication([])
 win = MyWindow()
